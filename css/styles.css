@@ -1,5 +1,4 @@
 body {
-  top: 0;
   margin: 0;
 }
 
@@ -45,12 +44,13 @@ body {
   border: none;
   outline: none;
   height: 40px;
-  background: #1E90FF;
+  background:transparent;
   color: #fff;
   font-size: 18px;
   border-radius: 20px;
   width: 60%;
-  /* padding-top: 4%; */
+  border:3px solid white;
+
 }
 
 input::placeholder {
@@ -72,11 +72,25 @@ input[type="date"]::placeholder {
   border: none;
   outline: none;
   height: 40px;
-  background: #1E90FF;
-  color: #fff;
+  background: transparent;
+  color: white;
   font-size: 18px;
   border-radius: 20px;
   width: 60%;
+  font-weight: bolder;
+  border: 3px solid white;
+}
+
+#form2 input[type="submit"]:hover {
+  /* background: transparent; */
+  background-color: #1E90FF;
+  border: 3px solid white;
+}
+
+#form1 input[type="submit"]:hover {
+  /* background: transparent; */
+  background-color: #1E90FF;
+  border: 3px solid white;
 }
 
 #form1 p {
@@ -115,13 +129,42 @@ input[type="date"]::placeholder {
 }
 
 .Section5 {
-  text-align: center;
+  /* text-align: center; */
   color: white;
-  background:rgb(15,56,63);
+  background: rgb(15, 56, 63);
+}
+
+.Section h1 {
+  color: rgb(15, 56, 63);
 }
 
 .register {
   text-align: center;
   height: 840px;
   color: white;
+}
+
+#social {
+  /* color: gold; */
+  font-weight: bolder;
+}
+
+#social a {
+  color: gold;
+  text-align: left;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+#social a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* #reach-us p {
+  text-align: left;
+} */
+
+.row {
+  padding-top: 3%;
 }
