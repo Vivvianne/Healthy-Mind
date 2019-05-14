@@ -13,24 +13,34 @@ body{
 .container{
    
 }
-.container.dep{
+/* .container.dep{
     text-align: center;
     position: relative;
     height: 300px;
     background-image: url(../images/man.jpeg);
     color: white;
     height: 300px;
+} */
+.jumbotron{
+  margin: 30px;
+  background: rgb(17, 200, 87);
+  border-radius: 20px;
+
 }
 h2{
     text-align: center;
 }
-.box .row .col-md-6 .stages{
+.jumbotron-1{
+  margin: 30px;
+  border-radius: 20px;
+}
+ .box .row .col-md-6 .stages{
     object-fit: scale-down;
     width: 650px;
     height: 600px;
     float: inline-end;
     background-color:white;
-}
+} 
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -70,4 +80,10 @@ h2{
     color:black;
     transform: rotateY(180deg);
     z-index: 1;
+  }
+  .jumbotron-2{
+    margin: 30px;
+    background: rgb(17, 200, 87);
+    border-radius: 20px;
+  
   }
