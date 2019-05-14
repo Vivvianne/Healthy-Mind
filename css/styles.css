@@ -44,13 +44,12 @@ body {
   border: none;
   outline: none;
   height: 40px;
-  background:transparent;
+  background: transparent;
   color: #fff;
   font-size: 18px;
-  border-radius: 20px;
   width: 60%;
-  border:3px solid white;
-
+  border-radius: 20px;
+  border: 3px solid white;
 }
 
 input::placeholder {
@@ -145,12 +144,11 @@ input[type="date"]::placeholder {
 }
 
 #social {
-  /* color: gold; */
   font-weight: bolder;
 }
 
 #social a {
-  color: gold;
+  color: white;
   text-align: left;
   font-weight: bolder;
   line-height: 50px;
@@ -158,13 +156,103 @@ input[type="date"]::placeholder {
 
 #social a:hover {
   text-decoration: none;
-  color: white;
+  color: gold;
 }
-
-/* #reach-us p {
-  text-align: left;
-} */
 
 .row {
   padding-top: 3%;
+}
+
+#reach-us {
+  font-weight: bolder;
+  color: white;
+}
+
+#reach-us p {
+  line-height: 30px;
+  text-align: left;
+}
+
+#page-links {
+  font-weight: bolder;
+}
+
+#page-links a {
+  color: white;
+  text-align: left;
+  font-weight: bolder;
+  line-height: 50px;
+  /* line-break: strict; */
+}
+
+#page-links a:hover {
+  text-decoration: none;
+  color: gold;
+}
+
+#textarea {
+  height: 200px;
+  width: 800px;
+  border: 3px solid white;
+  flex-wrap: flex;
+  color: white;
+  border-radius: 10px;
+}
+
+#textarea::placeholder {
+  color: white;
+  padding-left:2%;
+}
+
+#feedback-form {
+  flex-wrap: wrap;
+}
+
+#feedback-form input[type="email"] {
+  border: none;
+  background: transparent;
+  border: 3px solid white;
+  /* padding-bottom: 5%; */
+  width: 800px;
+  bottom: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+#feedback-email {
+  padding-bottom: 2%;
+}
+
+#feedback-submit {
+  background-color: rgb(15, 56, 63);
+  border: none;
+  border: 3px solid white;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#feedback-submit:hover {
+  background-color: white;
+  color: rgb(15, 56, 63);
+}
+
+#feedback {
+  font-weight: bolder;
+  text-align: center;
+  left: 5%;
+}
+
+#feedback-button {
+  text-align: center;
+}
+
+#email::placeholder{
+  padding-left: 2%;
 }
