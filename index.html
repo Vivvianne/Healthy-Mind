@@ -14,31 +14,48 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"></script>
-
+    <script src="js/scripts.js"></script>
   </head>
 
   <body>
     <div class="Section1">
-      <div class="navbar"></div>
-      <div class="carousels"></div>
-    </div>
+      </div>
     <div class="Section2">
-      <h1>STATISTICS</h1>
+      <h1 id="WWD-heading"><a name="what-we-do"></a>WHAT WE DO</h1>
+      <div class="row">
+        <div class="col">
+          <i id="icons" class="fa fa-comments" aria-hidden="true"></i><br>
+          <h1 id="wwd-heading2">COUNSELLING</h1>
+          <p id="wwd-paragraph"> We have over 100 dedicated staff members ready to help once called upon.<br />
+            Our counsellors have also been well grilled to keep a level of quality.
+          </p>
+        </div>
+        <div class="col">
+          <i id="icons" class="fa fa-user-md" aria-hidden="true"></i><br />
+          <h1 id="wwd-heading2">TREATMENT</h1>
+          <p id="wwd-paragraph">With over 10,000 medicines which we freely offer to incumbent patients.
+          </p>
+        </div>
+        <div class="col"><i id="icons" class="fa fa-ambulance" aria-hidden="true"></i><br />
+          <h1 id="wwd-heading2">EMERGENCY SERVICES</h1>
+          <p id="wwd-paragraph">With our ongoing partnerships with multiple hospitals<br /> plus our own emergency teams, we readily provide emergency services</p>
+        </div>
+      </div>
     </div>
-    <div id="healthy-mind-section">
-      <!-- <img src="img/depression.jpg" alt="I overcame depression"> -->
-      <h1>WHY HEALTHY MIND?</h1>
+    <div class="healthy-mind-section">
+      <h1 id="healthy-mind-section">WHY HEALTHY MIND?</h1>
       <i id="quote"><span class="fa fa-quote-left"></span></i>
       <div id="testimony1">
-        <p>I’ve struggled with mental health problems for 4 years now. I started my first year at college, being that
+        <p>I struggled with mental health problems for 4 years now. I started my first year at college, being that
           independent
           person my parents always wanted me to be, but then everything just came tumbling down. My family and I all
           went
           through
-          a very traumatic time and that’s where it all began. Healthy mind helped me to come out of it thanks to their
+          a very traumatic time and that’s where it all began. Healthy mind helped me to come out of it thanks to
+          their
           dedication to help people like me. Their staff are always willing to help and were there whenever i needed
           them
-          and now am living depression free thanks to them
+          and now am living depression free thanks to them"
         </p>
       </div>
       <div id="testimony2">
@@ -50,10 +67,10 @@
       <div class="container">
         <div class="forms">
           <div class="register">
-            <h1>START YOUR JOURNEY HERE</h1>
+            <h1 id="register-section-heading">START YOUR JOURNEY HERE</h1>
             <div id="form1">
               <form class="text-center" style="color: #757575;" method="POST" autocomplete="OFF" action="">
-                <h2>REGISTER HERE</h2>
+                <h2 id="register-form-heading"><a name="register"></a>REGISTER HERE</h2>
                 <p>FIRSTNAME</p>
                 <input type="text" name="" placeholder="Enter Your First Name" required />
                 <br />
@@ -82,10 +99,9 @@
                 <input type="submit" value="REGISTER">
               </form>
             </div>
-            <!-- <div class="separator"></div> -->
             <div id="form2">
               <form method="POST" class="text-center" style="color: #757575;" autocomplete="OFF" action="">
-                <h2>ALREADY A MEMBER?</h2>
+                <h2 id="register-form-heading"><a name="login"></a>ALREADY A MEMBER?</h2>
                 <p>USERNAME</p>
                 <input type="text" name="" placeholder="Enter Your Username" required />
                 <p>PASSWORD</p>
@@ -101,52 +117,47 @@
     </div>
     </div>
     <div class="Section4">
-      <div id="expert-heading">
-        <h1>WHAT OUR EXPERTS SAY</h1>
-      </div>
+      <h1 id="expert-heading">WHAT OUR EXPERTS SAY</h1>
       <div class="experts">
         <div id="expert-1">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/expert.jpg" alt="Healthy Mind Expert">
+            <img class="third-image" class="card-img-top" src="img/expert.jpg" alt="Healthy Mind Expert">
             <div class="card-body">
-              <h5 class="card-title">DR JACK TILLS</h5>
-              <p class="card-text">" People get confused when they learn that someone who is confident and smiling all
+              <h5 class="card-title">DR. JACK TILLS</h5>
+              <p class="card-text">”People get confused when they learn that someone who is confident and smiling all
                 the time struggles with depression.”
                 just because a person appears positive and upbeat, doesn’t mean that they aren’t
                 struggling to
-                hold it together inside"
+                hold it together inside”
               </p>
-              <a href="#" class="btn btn-primary">READ MORE</a>
             </div>
           </div>
         </div>
         <div id="expert-2">
           <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/expert1.jpg" alt="Healthy Mind Expert">
+            <img class="third-image" class="card-img-top" src="img/expert1.jpg" alt="Healthy Mind Expert">
             <div class="card-body">
-              <h5 class="card-title">DR JUDITH JENNINGS</h5>
-              <p class="card-text">" People get confused when they learn that someone who is confident and smiling all
-                the time struggles with depression.”
-                just because a person appears positive and upbeat, doesn’t mean that they aren’t
-                struggling to
-                hold it together inside"
+              <h5 class="card-title">DR. JUDITH JENNINGS</h5>
+              <p class="card-text">”Many people believe you can just ‘snap out of
+                it' which would imply that being depressed is “all in your head”. People
+                who have never experienced depression don’t
+                understand that it is
+                an illness, a chemical imbalance that is beyond your control”
               </p>
-              <a href="#" class="btn btn-primary">READ MORE</a>
             </div>
           </div>
         </div>
         <div id="expert-2">
           <div class="card" style="width: 18rem;">
-            <img id="third-image" class="card-img-top" src="img/tancredi.jpeg" alt="Healthy Mind Expert">
+            <img class="third-image" class="card-img-top" src="img/tancredi.jpeg" alt="Healthy Mind Expert">
             <div class="card-body">
-              <h5 class="card-title">DR RICK MISWIRTH</h5>
+              <h5 class="card-title">DR. RICK MISWIRTH</h5>
               <p class="card-text">" People get confused when they learn that someone who is confident and smiling all
                 the time struggles with depression.”
                 just because a person appears positive and upbeat, doesn’t mean that they aren’t
                 struggling to
                 hold it together inside"
               </p>
-              <a href="#" class="btn btn-primary">READ MORE</a>
             </div>
           </div>
         </div>
@@ -171,6 +182,7 @@
         <div class="col-md-2">
           <div id="social">
             <h4>SOCIAL</h4>
+            <hr id="line" />
             <a href=""><i class="fa fa-facebook"></i> Facebook/ Healthy Mind</a><br>
             <a href=""><i class="fa fa-instagram"></i> Instagram #Healthy Mind</a><br>
             <a href=""><i class="fa fa-twitter"></i> Twitter @Healthy Mind</a><br>
@@ -182,6 +194,7 @@
           <div id="">
             <h4>REACH US</h4>
             <div id="reach-us">
+              <hr id="line" />
               <p><i class="fa fa-phone"></i> Phone:(+254)711820888</p>
               <p><i class="fa fa-map-marker"></i> Location: Ole Sangale Road</p>
               <p><i class="fa fa-envelope"></i> Email: healthymind@gmail.com</p>
@@ -191,14 +204,16 @@
         <div class="col-md-2">
           <h4>QUICK LINKS</h4>
           <div id="page-links">
-            <a href=""><i class="fa fa-home"></i> home</a><br />
-            <a href=""><i class="fa fa-calendar"></i> statistics</a><br />
-            <a href=""><i class="fa fa-registered"></i> register</a><br />
-            <a href=""><i class="fa fa-sign-in"></i> login</a><br />
+            <hr id="line" />
+            <a href="#home"><i class="fa fa-home"></i> home</a><br />
+            <a href="#what-we-do"><i class="fa fa-calendar"></i> Services</a><br />
+            <a href="#register"><i class="fa fa-registered"></i> register</a><br />
+            <a href="#login"><i class="fa fa-sign-in"></i> login</a><br />
           </div>
         </div>
       </div>
     </div>
+    <script src="js/scripts.js"></script>
   </body>
 
   </html>

@@ -5,6 +5,8 @@ body {
 .Section2 {
   text-align: center;
   padding-bottom: 5%;
+  color: rgb(8, 109, 47);
+  font-weight: bold;
 }
 
 .Section3 {
@@ -28,14 +30,13 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  height: 920px;
 }
 
 #form1 {
   top: 25%;
   left: 20%;
   width: 320px;
-  /* height: 720px; */
-  /* position: relative; */
   transform: translate(-10%, 0%);
   box-sizing: border-box;
 }
@@ -45,26 +46,35 @@ body {
   outline: none;
   height: 40px;
   background: transparent;
-  color: #fff;
+  color: gold;
   font-size: 18px;
   width: 60%;
   border-radius: 20px;
-  border: 3px solid white;
+  border: 4px solid gold;
 }
 
 input::placeholder {
   color: white;
 }
 
-input[type="date"]::placeholder {
+#form1 input[type="date"]::placeholder {
   color: white;
 }
 
-#form1 input[type="email"], [type="date"], [type="password"], [type="text"] {
+#form1 input[type="date"] {
   background: transparent;
   border: none;
-  border-bottom: 3px solid white;
-  width: 200px
+  color: gold;
+  border-bottom: 2px solid gold;
+  width: 200px;
+}
+
+#form1 input[type="email"], [type="password"], [type="text"] {
+  background: transparent;
+  border: none;
+  color: gold;
+  border-bottom: 2px solid gold;
+  width: 200px;
 }
 
 #form2 input[type="submit"] {
@@ -72,32 +82,36 @@ input[type="date"]::placeholder {
   outline: none;
   height: 40px;
   background: transparent;
-  color: white;
+  color: gold;
   font-size: 18px;
   border-radius: 20px;
   width: 60%;
   font-weight: bolder;
-  border: 3px solid white;
+  border: 4px solid gold;
 }
 
 #form2 input[type="submit"]:hover {
-  /* background: transparent; */
-  background-color: #1E90FF;
-  border: 3px solid white;
+  background-color: gold;
+  border: 4px solid white;
+  color: rgb(15, 56, 63);
+  font-weight: bolder;
 }
 
 #form1 input[type="submit"]:hover {
-  /* background: transparent; */
-  background-color: #1E90FF;
+  background-color: gold;
   border: 3px solid white;
+  color: rgb(15, 56, 63);
+  font-weight: bolder;
 }
 
 #form1 p {
-  color: white;
+  color: gold;
+  font-weight: bolder;
 }
 
 #form2 p {
-  color: white;
+  color: gold;
+  font-weight: bolder;
 }
 
 #form1 h2 {
@@ -111,39 +125,47 @@ input[type="date"]::placeholder {
 }
 
 #form2 {
-  /* top: -23%; */
   left: 45%;
   width: 320px;
   height: 720px;
   float: right;
-  /* position: relative; */
-  transform: translate(20%, -107%);
-  /* box-sizing: border-box; */
+  transform: translate(18%, -105%);
   color: white;
   border: none;
 }
 
 .Section4 {
   text-align: center;
-  /* font-weight: bolder; */
+  font-weight: bolder;
 }
 
 .experts {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
+}
+
+#WWD-heading {
+  font-weight: bolder;
+  font-size: 50px;
+  color: rgb(15, 56, 63);
 }
 
 #expert-heading {
   padding-top: 2%;
-  /* padding-bottom: 5%; */
   font-weight: bolder;
+  font-size: 50px;
+  color: rgb(15, 56, 63);
 }
 
 .Section5 {
-  /* text-align: center; */
   color: white;
   background: rgb(15, 56, 63);
+}
+
+.Section5 h4 {
+  color: gold;
+  font-weight: bolder;
 }
 
 .Section h1 {
@@ -174,6 +196,8 @@ input[type="date"]::placeholder {
 
 .row {
   padding-top: 3%;
+  padding-left:3%;
+  padding-right:3%;
 }
 
 #reach-us {
@@ -195,7 +219,6 @@ input[type="date"]::placeholder {
   text-align: left;
   font-weight: bolder;
   line-height: 50px;
-  /* line-break: strict; */
 }
 
 #page-links a:hover {
@@ -225,7 +248,6 @@ input[type="date"]::placeholder {
   border: none;
   background: transparent;
   border: 3px solid white;
-  /* padding-bottom: 5%; */
   width: 800px;
   bottom: 10px;
   color: white;
@@ -270,18 +292,22 @@ input[type="date"]::placeholder {
   padding-left: 2%;
 }
 
-/* text-align: center; */
-
-#healthy-mind-section {
+.healthy-mind-section {
   text-align: center;
   font-size: 60px;
-  /* background-color: #696969; */
   background: rgb(15, 56, 63);
   color: white;
   padding-bottom: 2%;
 }
 
+.healthy-mind-section h1 {
+  color: gold;
+  font-weight: bolder;
+  padding-top: 2%;
+}
+
 #testimony1 p {
+  font-style: italic;
   font-size: 30px;
 }
 
@@ -308,14 +334,85 @@ input[type="date"]::placeholder {
 }
 
 .card:hover {
-  /* box-shadow: 0px */
-  /* transform: rotateY(180deg); */
-  /* border: 1px solid; */
-  padding: 10px;
-  /* box-shadow: 5px 10px; */
+  padding: 2px;
   box-shadow: 10px 10px 5px grey;
 }
 
-#third-image{
-  height: 298px;
+.third-image {
+  height: 285px;
 }
+
+.card-body {
+  background: rgb(15, 56, 63);
+  color: white;
+}
+
+.card-title {
+  font-weight: bolder;
+  color: gold;
+}
+
+#expert-submit {
+  background-color: rgb(15, 56, 63);
+  font-weight: bolder;
+  border: none;
+  border: 3px solid white;
+  color: gold;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 120px;
+}
+
+#expert-submit:hover {
+  font-size: 10px;
+  font-weight: bolder;
+  background: none;
+  color: white;
+  border: 4px solid gold;
+  border-radius: 20px;
+}
+
+.card-text {
+  font-style: italic;
+}
+
+#register-section-heading {
+  font-size: 50px;
+  font-weight: bolder;
+  padding-top: 3%;
+  padding-bottom: 2%;
+
+}
+
+#register-form-heading{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#line {
+  border: 2px solid whitesmoke;
+  width: 100%;
+  text-align: left;
+}
+
+#icons {
+  font-size: 120px;
+  padding-bottom: 3%;
+  color: rgb(8, 109, 47)
+}
+
+#wwd-paragraph{
+  color: rgb(15, 56, 63);
+  font-size:18px;
+  font-weight: bold;
+}
+
+#wwd-heading2{
+  font-weight: bolder;
+}
+
