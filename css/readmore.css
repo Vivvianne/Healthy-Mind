@@ -1,45 +1,39 @@
 body{
     margin: auto;
-    padding: 20px;
-    width: 80%; 
+    width: 100%;  
     font-size: 20px;
 }
 .box{
-    /* position: relative; */
+  
     display: block;
     width: 600px; 
     text-align: center;
 }
-/* .container.dep{
-    text-align: center;
-    position: relative;
-    height: 300px;
-    background-image: url(../images/man.jpeg);
-    color: white;
-    height: 300px;
-} */
-.jumbotron{
-  margin: 30px;
-  background-image: url("../images/Depression.FI_smaller.jpg");
+
+.cont_1{
+  
+  background-image: url("../images/Depression.FI_smaller.jpg");  
   background-size: cover;
-  background-position:top left;
-  /* background: rgb(8, 109, 47); */
-  /* color: white; */
+  height: 300px;
+}
+
+.container .def{
+  text-align: center;
 }
 h2{
     text-align: center;
+    margin: 20px;
 }
-.jumbotron-1{
-  margin: 30px;
-  border-radius: 20px;
+.cont_2{
 }
- .box .row .col-md-6 .stages{
-    object-fit: scale-down;
-    width: 650px;
-    height: 600px;
-    float: inline-end;
-    background-color:white;
-} 
+.cont_2 .causes{
+  text-align: center;
+}
+.cont_2 .row{
+  text-align: center;
+}
+ 
+
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -80,17 +74,54 @@ h2{
     z-index: 1;
     color: white;
   }
-  .jumbotron-2{
-    margin: 30px;
-    background: rgb(8, 109, 47);
+  .cont_3{
     border: none;
     padding: 10px;
     color: white;
+    background-color: rgb(8, 109, 47);
+  }
+  
+  .cont_4 .row{
+    background-color: rgb(199, 195, 195);
+  }
+  .container .stages{
+    margin: 50px;
+    text-align: center;
   }
   #more{
     display: none;
   }
+  #more1{
+    display: none;
+  }
+  #more2{
+    display: none;
+  }
+  #more3{
+    display: none;
+  }
   #myBtn{
+    background-color: rgb(8, 109, 47);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+  }
+  #myBtn1{
+    background-color: rgb(8, 109, 47);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+  }
+  #myBtn2{
+    background-color: rgb(8, 109, 47);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+  }
+  #myBtn3{
     background-color: rgb(8, 109, 47);
     border-radius: 10px;
     border: none;
