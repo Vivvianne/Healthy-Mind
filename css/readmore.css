@@ -10,9 +10,6 @@ body{
     width: 600px; 
     text-align: center;
 }
-.container{
-   
-}
 /* .container.dep{
     text-align: center;
     position: relative;
@@ -23,9 +20,11 @@ body{
 } */
 .jumbotron{
   margin: 30px;
-  background: rgb(17, 200, 87);
-  border-radius: 20px;
-
+  background-image: url("../images/Depression.FI_smaller.jpg");
+  background-size: cover;
+  background-position:top left;
+  /* background: rgb(8, 109, 47); */
+  /* color: white; */
 }
 h2{
     text-align: center;
@@ -70,23 +69,31 @@ h2{
   }
   
   .flip-card-front {
-    /* background-color: #bbb; */
     color: black;
     z-index: 2;
   }
   
   .flip-card-back {
-    background-color:rgb(171, 235, 195);
+    background-color:rgb(8, 109, 47);
     color:black;
     transform: rotateY(180deg);
     z-index: 1;
+    color: white;
   }
   .jumbotron-2{
     margin: 30px;
-    background: rgb(17, 200, 87);
-    border-radius: 20px;
-  
+    background: rgb(8, 109, 47);
+    border: none;
+    padding: 10px;
+    color: white;
   }
   #more{
     display: none;
+  }
+  #myBtn{
+    background-color: rgb(8, 109, 47);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
   }
