@@ -125,6 +125,19 @@ input[type="date"]::placeholder {
 
 .Section4 {
   text-align: center;
+  /* font-weight: bolder; */
+}
+
+.experts {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+}
+
+#expert-heading {
+  padding-top: 2%;
+  /* padding-bottom: 5%; */
+  font-weight: bolder;
 }
 
 .Section5 {
@@ -201,7 +214,7 @@ input[type="date"]::placeholder {
 
 #textarea::placeholder {
   color: white;
-  padding-left:2%;
+  padding-left: 2%;
 }
 
 #feedback-form {
@@ -253,6 +266,56 @@ input[type="date"]::placeholder {
   text-align: center;
 }
 
-#email::placeholder{
+#email::placeholder {
   padding-left: 2%;
+}
+
+/* text-align: center; */
+
+#healthy-mind-section {
+  text-align: center;
+  font-size: 60px;
+  /* background-color: #696969; */
+  background: rgb(15, 56, 63);
+  color: white;
+  padding-bottom: 2%;
+}
+
+#testimony1 p {
+  font-size: 30px;
+}
+
+#testimony2 {
+  color: gold;
+}
+
+#testimony2 h5 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#testimony2 p {
+  font-size: 20px;
+}
+
+#healthy-mind-section h1 {
+  font-weight: bold;
+  color: gold;
+}
+
+#quote {
+  color: gold;
+}
+
+.card:hover {
+  /* box-shadow: 0px */
+  /* transform: rotateY(180deg); */
+  /* border: 1px solid; */
+  padding: 10px;
+  /* box-shadow: 5px 10px; */
+  box-shadow: 10px 10px 5px grey;
+}
+
+#third-image{
+  height: 298px;
 }
