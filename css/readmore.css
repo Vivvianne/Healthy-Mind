@@ -87,3 +87,6 @@ h2{
     border-radius: 20px;
   
   }
+  #more{
+    display: none;
+  }
