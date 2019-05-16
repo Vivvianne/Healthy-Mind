@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*---------------------------------
+          HEADER STYLE START
+----------------------------------*/
+header {
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* min-height:  */
+}
+
+.menu_bar {
+  padding: 10px;
+  max-height: 60px;
+  cursor: pointer;
+}
+
+.nav_name {
+  display: block;
+  top: 0px;
+  padding: 10px;
+  font-size: 30px;
+  color: black;
+
+}
+
+.nav_name span {
+  color: green;
+}
+
+nav {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+nav ul li {
+  color: rgb(0, 102, 14);
+  display: inline;
+  text-align: center;
+}
+
+nav ul li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 0 3px;
+}
+
+nav ul li a:hover {
+  transform: scale(1.2);
+  text-shadow: 0 0 20px rgb(0, 0, 0);
+}
+
+.log_sign {
+  font-size: 20px;
+}
+
+/*-----------------------------------------
+          NAVIGATION MENU STYLING
+------------------------------------------*/
+#nav_content {
+  position: absolute;
+  top: 0px;
+  text-transform: uppercase;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 2em;
+  height: 100vh;
+  width: 100%;
+  padding-top: 50px;
+  color: white;
+  z-index: 9000;
+  display: none;
+}
+
+.close_cont {
+  position: absolute;
+  top: 0px;
+  width: 100vw;
+}
+
+.log {
+  float: left;
+  padding-left: 20px;
+}
+
+.log a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 0 5px;
+
+}
+
+.close {
+  float: right;
+  padding-top: 2%;
+  padding-right: 5%;
+  cursor: pointer;
+  color: red;
+  font-size: 40px;
+}
+
+#nav_content ul li {
+  padding: 3vh 0;
+  cursor: pointer;
+}
+
+/*---------------------------------------
+             MEDIA QUERY
+--------------------------------------------*/
+@media only screen and (max-width: 500px) {
+  .nav_name {
+    transform: translate(-20%);
+  }
+
+  nav {
+    display: none;
+  }
+}
