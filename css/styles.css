@@ -1,0 +1,483 @@
+body {
+  margin: 0;
+}
+
+#c-slide {
+  height: 100vh;
+  width: 100vw;
+  background-size: auto 100%;
+  background-position: center center;
+}
+
+#carousel-heading {
+  padding-bottom: 1%;
+  font-size: 60px;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 2px 2px 5px black;
+}
+
+#carousel-text {
+  font-size: 35px;
+  padding-bottom: 3%;
+  font-weight: bold;
+  color: gold;
+  text-shadow: 2px 2px 5px rgb(15, 56, 63);
+}
+
+#carousel-button {
+  border: none;
+  border: 4px solid white;
+  background: none;
+  color: rgb(15, 56, 63);
+  border-radius: 30px;
+  width: 250px;
+  cursor: pointer;
+}
+
+#button-spacing {
+  padding-bottom: 2%;
+}
+
+#carousel-button:hover {
+  border: none;
+  border: 4px solid gold;
+  background: none;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px rgb(15, 56, 63);
+  color: rgb(15, 56, 63);
+}
+
+#carousel-button a {
+  padding-left: 1%;
+  padding-right: 1%;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#carousel-button a:hover {
+  padding-left: 1%;
+  padding-right: 1%;
+  text-decoration: none;
+  color: gold;
+  font-size: 30px;
+  background: none;
+  font-weight: bolder
+}
+
+.Section2 {
+  text-align: center;
+  padding-bottom: 5%;
+  color: rgb(8, 109, 47);
+  font-weight: bold;
+}
+
+.Section3 {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  text-align: center;
+  background-image: url("../img/focus.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 2px 2px black;
+  line-height: 30px;
+}
+
+.forms {
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  margin-left: 60px;
+  margin-right: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 920px;
+}
+
+#form1 {
+  top: 25%;
+  left: 20%;
+  /* right:50%; */
+  width: 425px;
+  transform: translate(-10%, 0%);
+  box-sizing: border-box;
+  border-right:8px solid gold;
+}
+
+#form1 input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: transparent;
+  color: gold;
+  font-size: 18px;
+  width: 60%;
+  border-radius: 20px;
+  border: 4px solid gold;
+}
+
+input::placeholder {
+  color: white;
+}
+
+#form1 input[type="date"] {
+  background: transparent;
+  border: none;
+  color: gold;
+  border-bottom: 2px solid gold;
+  width: 200px;
+}
+
+#form1 input[type="email"], [type="password"], [type="text"] {
+  background: transparent;
+  border: none;
+  color: gold;
+  border-bottom: 2px solid gold;
+  width: 200px;
+}
+
+#form2 input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 40px;
+  background: transparent;
+  color: gold;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 60%;
+  font-weight: bolder;
+  border: 4px solid gold;
+}
+
+#form2 input[type="submit"]:hover {
+  background-color: gold;
+  border: 4px solid white;
+  color: rgb(15, 56, 63);
+  font-weight: bolder;
+}
+
+#form1 input[type="submit"]:hover {
+  background-color: gold;
+  border: 3px solid white;
+  color: rgb(15, 56, 63);
+  font-weight: bolder;
+}
+
+#form1 p {
+  color: gold;
+  font-weight: bolder;
+}
+
+#form2 p {
+  color: gold;
+  font-weight: bolder;
+}
+
+#form1 h2 {
+  color: white;
+  font-size: 20px;
+}
+
+#form2 h2 {
+  color: white;
+  font-size: 20px;
+}
+
+#form2 {
+  left: 45%;
+  width: 320px;
+  height: 720px;
+  float: right;
+  transform: translate(18%, -105%);
+  color: white;
+  border: none;
+}
+
+.Section4 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.experts {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2%;
+}
+
+#WWD-heading {
+  font-weight: bolder;
+  font-size: 50px;
+  color: rgb(15, 56, 63);
+}
+
+#expert-heading {
+  padding-top: 2%;
+  font-weight: bolder;
+  font-size: 50px;
+  color: rgb(15, 56, 63);
+}
+
+.Section5 {
+  color: white;
+  background: rgb(15, 56, 63);
+}
+
+.Section5 h4 {
+  color: gold;
+  font-weight: bolder;
+}
+
+.Section h1 {
+  color: rgb(15, 56, 63);
+}
+
+.register {
+  text-align: center;
+  height: 840px;
+  color: white;
+}
+
+#social {
+  font-weight: bolder;
+}
+
+#social a {
+  color: white;
+  text-align: left;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+#social a:hover {
+  text-decoration: none;
+  color: gold;
+}
+
+.row {
+  padding-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#reach-us {
+  font-weight: bolder;
+  color: white;
+}
+
+#reach-us p {
+  line-height: 30px;
+  text-align: left;
+}
+
+#page-links {
+  font-weight: bolder;
+}
+
+#page-links a {
+  color: white;
+  text-align: left;
+  font-weight: bolder;
+  line-height: 50px;
+}
+
+#page-links a:hover {
+  text-decoration: none;
+  color: gold;
+}
+
+#textarea {
+  height: 40%;
+  width: 80%;
+  border: 3px solid white;
+  flex-wrap: flex;
+  color: white;
+  border-radius: 10px;
+}
+
+#textarea::placeholder {
+  color: white;
+  padding-left: 2%;
+}
+
+#feedback-form {
+  flex-wrap: wrap;
+  max-width: 95%;
+}
+
+#feedback-form input[type="email"] {
+  border: none;
+  background: transparent;
+  border: 3px solid white;
+  width: 80%;
+  bottom: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+#feedback-email {
+  padding-bottom: 2%;
+  max-width: 95%;
+}
+
+#feedback-submit {
+  background-color: rgb(15, 56, 63);
+  border: none;
+  border: 3px solid white;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#feedback-submit:hover {
+  background-color: white;
+  color: rgb(15, 56, 63);
+}
+
+#feedback {
+  font-weight: bolder;
+  text-align: center;
+  left: 5%;
+}
+
+#feedback-button {
+  text-align: center;
+}
+
+#email::placeholder {
+  padding-left: 2%;
+}
+
+.healthy-mind-section {
+  text-align: center;
+  font-size: 60px;
+  background: rgb(15, 56, 63);
+  color: white;
+  padding-bottom: 2%;
+}
+
+.healthy-mind-section h1 {
+  color: gold;
+  font-weight: bolder;
+  padding-top: 2%;
+}
+
+#testimony1 p {
+  font-style: italic;
+  font-size: 30px;
+}
+
+#testimony2 {
+  color: gold;
+}
+
+#testimony2 h5 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#testimony2 p {
+  font-size: 20px;
+}
+
+#healthy-mind-section h1 {
+  font-weight: bold;
+  color: gold;
+}
+
+#quote {
+  color: gold;
+}
+
+.card:hover {
+  padding: 2px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.third-image {
+  height: 285px;
+}
+
+.card-body {
+  background: rgb(15, 56, 63);
+  color: white;
+}
+
+.card-title {
+  font-weight: bolder;
+  color: gold;
+}
+
+#expert-submit {
+  background-color: rgb(15, 56, 63);
+  font-weight: bolder;
+  border: none;
+  border: 3px solid white;
+  color: gold;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 120px;
+}
+
+#expert-submit:hover {
+  font-size: 10px;
+  font-weight: bolder;
+  background: none;
+  color: white;
+  border: 4px solid gold;
+  border-radius: 20px;
+}
+
+.card-text {
+  font-style: italic;
+}
+
+#register-section-heading {
+  font-size: 50px;
+  font-weight: bolder;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  color:gold;
+}
+
+#register-form-heading {
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(8, 109, 47);
+}
+
+#line {
+  border: 2px solid whitesmoke;
+  width: 100%;
+  text-align: left;
+}
+
+#icons {
+  font-size: 120px;
+  padding-bottom: 3%;
+  color: rgb(8, 109, 47)
+}
+
+#wwd-paragraph {
+  color: rgb(15, 56, 63);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#wwd-heading2 {
+  font-weight: bolder;
+}
