@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $('#more').click(function(){
+        $('.show').show();
+        $('#more').hide();
+    })
+    $('#less').click(function(){
+        $('.show').hide();
+        $('#more').show();
+    })
+})
