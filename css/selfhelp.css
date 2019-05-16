@@ -1,0 +1,76 @@
+.col-md-6 {
+    /* border: 2px red solid; */
+    width: 600px;
+    text-align: center;
+    /* padding-right: 30px; */
+}
+
+ul {
+    text-align: left;
+}
+
+#row_2 {
+    padding-right: 15px;
+}
+
+ol {
+    text-align: left;
+}
+
+.container {
+    text-align: center;
+    /* border: 1px red solid; */
+}
+
+.card-body {
+    background-color: #0F383F;
+    color: white
+}
+
+h2 {
+    color: gold;
+}
+
+.together {
+    text-align: center;
+    color: gold;
+}
+
+#row_1 {
+    background-color: #0F383F;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    /* text-align: center; */
+    color: black;
+}
+
+.heading {
+    background-color: #0F383F;
+    width: 1500px;
+}
+
+.show {
+    display: none;
+}
+
+#more {
+    display: none;
+}
+
+
+#leftie {
+    background-color: #0F383F;
+    float: left;
+    margin-right: 50px;
+    margin-left: 450px;
+}
+
+#rightie {
+    background-color: #0F383F;
+    float: right;
+    right: 0;
+    /* margin-left: 500px; */
+}
