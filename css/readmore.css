@@ -144,3 +144,13 @@ h2{
 #test-button a{
   color: white;
 }
+#index-button{
+  text-align: right;
+  background-color: rgb(8, 109, 47);
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+#index-button a{
+  color: white;
+}
