@@ -2,6 +2,71 @@ body {
   margin: 0;
 }
 
+#c-slide {
+  height: 100vh;
+  width: 100vw;
+  background-size: auto 100%;
+  background-position: center center;
+}
+
+#carousel-heading {
+  padding-bottom: 1%;
+  font-size: 60px;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 2px 2px 5px black;
+}
+
+#carousel-text {
+  font-size: 35px;
+  padding-bottom: 3%;
+  font-weight: bold;
+  color: gold;
+  text-shadow: 2px 2px 5px rgb(15, 56, 63);
+}
+
+#carousel-button {
+  border: none;
+  border: 4px solid white;
+  background: none;
+  color: rgb(15, 56, 63);
+  border-radius: 30px;
+  width: 250px;
+  cursor: pointer;
+}
+
+#button-spacing {
+  padding-bottom: 2%;
+}
+
+#carousel-button:hover {
+  border: none;
+  border: 4px solid gold;
+  background: none;
+  border-radius: 30px;
+  box-shadow: 2px 2px 5px rgb(15, 56, 63);
+  color: rgb(15, 56, 63);
+}
+
+#carousel-button a {
+  padding-left: 1%;
+  padding-right: 1%;
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+#carousel-button a:hover {
+  padding-left: 1%;
+  padding-right: 1%;
+  text-decoration: none;
+  color: gold;
+  font-size: 30px;
+  background: none;
+  font-weight: bolder
+}
+
 .Section2 {
   text-align: center;
   padding-bottom: 5%;
@@ -36,9 +101,11 @@ body {
 #form1 {
   top: 25%;
   left: 20%;
-  width: 320px;
+  /* right:50%; */
+  width: 425px;
   transform: translate(-10%, 0%);
   box-sizing: border-box;
+  border-right:8px solid gold;
 }
 
 #form1 input[type="submit"] {
@@ -54,10 +121,6 @@ body {
 }
 
 input::placeholder {
-  color: white;
-}
-
-#form1 input[type="date"]::placeholder {
   color: white;
 }
 
@@ -196,8 +259,8 @@ input::placeholder {
 
 .row {
   padding-top: 3%;
-  padding-left:3%;
-  padding-right:3%;
+  padding-left: 3%;
+  padding-right: 3%;
 }
 
 #reach-us {
@@ -386,12 +449,13 @@ input::placeholder {
   font-weight: bolder;
   padding-top: 3%;
   padding-bottom: 2%;
-
+  color:gold;
 }
 
-#register-form-heading{
-  font-size: 30px;
+#register-form-heading {
+  font-size: 40px;
   font-weight: bolder;
+  color: rgb(8, 109, 47);
 }
 
 #line {
@@ -406,13 +470,12 @@ input::placeholder {
   color: rgb(8, 109, 47)
 }
 
-#wwd-paragraph{
+#wwd-paragraph {
   color: rgb(15, 56, 63);
-  font-size:18px;
+  font-size: 18px;
   font-weight: bold;
 }
 
-#wwd-heading2{
+#wwd-heading2 {
   font-weight: bolder;
 }
-
