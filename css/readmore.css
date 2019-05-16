@@ -154,3 +154,13 @@ h2{
 #index-button a{
   color: white;
 }
+@media screen and (min-width: 480px) {
+  background-color: brisque;
+  color: white;
+}
+@media screen and (max-width: 760px) {
+  p {
+      font-size: 1.5rem;
+      line-height: 1.5;
+  }
+}
