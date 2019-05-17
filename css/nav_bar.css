@@ -1,9 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Exo:900');
 * {
   margin: 0;
   padding: 0px;
   box-sizing: border-box;
 }
-
+html{
+  scroll-behavior: smooth;
+}
+body{
+  scroll-behavior: smooth;
+}
 /*---------------------------------
           HEADER STYLE START
 ----------------------------------*/
@@ -11,10 +20,8 @@ header {
   width: 100%;
   overflow: hidden;
   background: white;
-  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  /* min-height:  */
 }
 
 .menu_bar {
@@ -24,14 +31,17 @@ header {
 }
 
 .nav_name {
-  display: block;
+  display: inline-block;
   top: 0px;
-  padding: 10px;
+  position: absolute;
+  left: 50%;
+  padding-top: 15px;
+  transform: translate(-50%);
   font-size: 30px;
   color: black;
-
+  font-family: 'Exo', sans-serif;
+  letter-spacing: 5px;
 }
-
 .nav_name span {
   color: green;
 }
@@ -39,6 +49,7 @@ header {
 nav {
   padding: 20px;
   padding-bottom: 0px;
+  float: right;
 }
 
 nav ul li {
@@ -72,12 +83,16 @@ nav ul li a:hover {
   background: rgb(0, 0, 0);
   text-align: center;
   font-size: 2em;
-  height: 100vh;
+  height: 100vh
+  /* min-height:  */;
   width: 100%;
   padding-top: 50px;
   color: white;
   z-index: 9000;
   display: none;
+}
+#nav_content a{
+  color: white;
 }
 
 .close_cont {
@@ -112,16 +127,40 @@ nav ul li a:hover {
   padding: 3vh 0;
   cursor: pointer;
 }
+#nav_content ul li:hover a{
+  color: green;
+  text-shadow: 0 0 10px white;
+  letter-spacing: 2px;
+}
+.back-top{
+  /* display: none; */
+  cursor: pointer;
+}
+.back-top i{
+  position: fixed;
+  color: green;
+  bottom: 40vh;
+  right: 0px;
+  padding: 8px 12px;
+  background: rgb(255, 255, 255);
+  z-index: 3000;
+ 
+}
 
 /*---------------------------------------
              MEDIA QUERY
 --------------------------------------------*/
 @media only screen and (max-width: 500px) {
-  .nav_name {
-    transform: translate(-20%);
-  }
 
   nav {
     display: none;
+  }
+  .nav_name{
+    font-size: 4.5vw;
+  }
+  .back-top i{
+    bottom: 10vh;
+    right: 10px;
+    border-radius: 50%;
   }
 }

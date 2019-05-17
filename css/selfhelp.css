@@ -1,21 +1,16 @@
+
 .col-md-6 {
-    /* border: 2px red solid; */
     width: 600px;
+    /* max-width: 100%; */
     text-align: center;
-    /* padding-right: 30px; */
 }
-
-ul {
-    text-align: left;
-}
-
 #row_2 {
     padding-right: 15px;
 }
 
 ol {
     text-align: left;
-}
+} 
 
 .container {
     text-align: center;
@@ -49,7 +44,7 @@ h3 {
 
 .heading {
     background-color: #0F383F;
-    width: 1500px;
+    width: 100vw;
 }
 
 .show {
@@ -61,16 +56,15 @@ h3 {
 }
 
 
-#leftie {
-    background-color: #0F383F;
-    float: left;
-    margin-right: 50px;
-    margin-left: 450px;
-}
 
 #rightie {
     background-color: #0F383F;
     float: right;
     right: 0;
     /* margin-left: 500px; */
+}
+@media only screen and (max-width: 500px) {
+    .col-md-6 {
+        max-width: 100%;
+    }
 }

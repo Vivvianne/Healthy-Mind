@@ -6,7 +6,7 @@ $(document).ready(function () {
   j = 1;
   var $newDiv = $("<section/>")
     .addClass("test_score")
-    .html("<div class='res_cont'><h3>Your score is <span class='result'></span> out of 35</h3><p>If you are having thoughts or not feeling good about yourself most days please reach out straight away and talk to someone who is trained to help..</p></div><div class='self'><p>Read our Selfcare article and get to feel better about yourself.</p> <a href=''><div class='pointer'><p> <i class='fas fa-comment-dots'></i>Explore self Care</p> <div class='point'></div></div></a></div>");
+    .html("<div class='res_cont'><h3>Your score is <span class='result'></span> out of 35</h3><p>If you are having thoughts or not feeling good about yourself most days please reach out straight away and talk to someone who is trained to help..</p></div><div class='self'><p>Read our Selfcare article and get to feel better about yourself.</p> <a href='selfhelp.html'><div class='pointer'><p> <i class='fas fa-comment-dots'></i>Explore self Care</p> <div class='point'></div></div></a></div>");
 
   $(".scroll,.prBtn").click(function () {
     i++;
